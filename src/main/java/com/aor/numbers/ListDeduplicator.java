@@ -25,7 +25,7 @@ public class ListDeduplicator implements GenericListDeduplicator {
     public List<Integer> deduplicate(List<Integer> list) {
         List<Integer> sorted = sorter.sort(list);
         List<Integer> unique = new ArrayList<>();
-
+    
         Integer last = null;
 
         for (Integer number : sorted)
