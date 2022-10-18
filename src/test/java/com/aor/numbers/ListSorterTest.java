@@ -33,4 +33,5 @@ public class ListSorterTest {
     public void helper() {
         list = Arrays.asList(3, 2, 6, 1, 4, 5, 7);
     }
+
 }
